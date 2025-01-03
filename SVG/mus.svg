@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 201">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #8698e2;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-1" cx="70.5" cy="107.5" rx="61.5" ry="86.5"/>
+  <line class="cls-1" x1="71" y1="122" x2="71" y2="173"/>
+</svg>

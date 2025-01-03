@@ -1,0 +1,8 @@
+:root {
+  --primary: #2232ac;
+  --secondary: #666666;
+  --accent: #8698e2;
+}
+.aktiv {
+  color: var(--primary) !important; /* Blå farve */
+}

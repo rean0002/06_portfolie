@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 745 181">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        font-size: 76.15px;
+      }
+
+      .cls-1, .cls-5, .cls-4 {
+        fill: #8698e2;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2, .cls-6, .cls-3 {
+        fill: #2232ac;
+      }
+
+      .cls-6 {
+        font-size: 100px;
+      }
+
+      .cls-5 {
+        font-size: 97px;
+      }
+
+      .cls-7 {
+        font-family: IvyMode-SemiBold, IvyMode;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <text class="cls-7" transform="translate(39.51 127.68) scale(.98 1)"><tspan class="cls-6" x="0" y="0">R</tspan><tspan class="cls-3" x="66.4" y="0">ebe</tspan><tspan class="cls-2" x="201.25" y="0">c</tspan><tspan class="cls-3" x="241.15" y="0" xml:space="preserve">ca  </tspan><tspan class="cls-5" x="354" y="0">A</tspan><tspan class="cls-4" x="416.56" y="0">nde</tspan><tspan class="cls-1" x="554.46" y="0">r</tspan><tspan class="cls-4" x="583.85" y="0">sen</tspan></text>
+</svg>
