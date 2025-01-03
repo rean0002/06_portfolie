@@ -4,5 +4,5 @@
   --accent: #8698e2;
 }
 .aktiv {
-  color: var(--primary) !important; /* Blå farve */
+  color: var(--primary) !important;
 }

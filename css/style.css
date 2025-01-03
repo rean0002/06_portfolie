@@ -7,6 +7,81 @@ body {
   --secondary: #666666;
   --accent: #8698e2;
 }
+h1 {
+  text-align: center;
+  font-family: "ivymode", sans-serif;
+  color: var(--primary);
+  font-size: 40px;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+  font-family: "ivymode", sans-serif;
+  color: var(--primary);
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "ivymode", sans-serif;
+  color: var(--accent);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+h4 {
+  position: absolute;
+  font-family: "ivymode", sans-serif;
+  color: var(--primary);
+  font-weight: 200;
+  font-size: 30px;
+  letter-spacing: 10px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  right: -1%;
+}
+p {
+  font-family: "Inconsolata", monospace;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  color: var(--secondary);
+}
+
+.front {
+  position: relative; /* Gør det muligt at placere pseudoelementer relativt til denne container */
+  text-align: center;
+  padding-block: 13rem;
+  margin: 2rem;
+}
+
+.front::before,
+.front::after {
+  content: ""; /* Tilføj tomt indhold til pseudoelementerne */
+  position: absolute;
+  border: 2px solid var(--primary); /* Tykkelse og farve på hjørnekanterne */
+  width: 110px; /* Længde af kanten */
+  height: 80px; /* Højde af kanten */
+}
+
+.front::before {
+  top: 0; /* Øverst */
+  left: 0; /* Venstre */
+  border-right: none; /* Fjern højre kant */
+  border-bottom: none; /* Fjern nederste kant */
+}
+
+.front::after {
+  bottom: 0; /* Nederst */
+  right: 0; /* Højre */
+  border-left: none; /* Fjern venstre kant */
+  border-top: none; /* Fjern øverste kant */
+}
+
+.front img {
+  margin-top: 1rem;
+  max-width: 50px;
+  height: auto; /*propositioner*/
+}
+
 /*************************HEADER****************************/
 header {
   display: grid;
@@ -31,7 +106,6 @@ header {
   .logo img {
     max-width: 50px;
     padding-inline: 1rem;
-    padding-block: 1rem;
   }
 
   .header {
@@ -81,7 +155,9 @@ header {
     cursor: pointer;
     float: right;
     padding: 28px 20px;
-    position: relative;
+    position: absolute;
+    top: 1%;
+    right: 1%;
     user-select: none;
   }
 
