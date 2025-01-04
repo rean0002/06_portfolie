@@ -19,6 +19,7 @@ h2 {
   font-family: "ivymode", sans-serif;
   color: var(--primary);
   font-weight: 400;
+  padding-bottom: 1.5rem;
 }
 
 h3 {
@@ -47,7 +48,7 @@ p {
 }
 
 .front {
-  position: relative; /* Gør det muligt at placere pseudoelementer relativt til denne container */
+  position: relative;
   text-align: center;
   padding-block: 13rem;
   margin: 2rem;

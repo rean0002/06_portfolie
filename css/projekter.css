@@ -6,3 +6,70 @@
 .aktiv {
   color: var(--primary) !important;
 }
+
+.tema ul {
+  list-style: none;
+}
+.tema li {
+  padding-block: 10vw;
+}
+
+.tema2 {
+  background-color: var(--primary);
+  color: var(--accent);
+}
+.tema3 {
+  background-color: var(--accent);
+  color: var(--primary);
+}
+.tema4 {
+  background-color: var(--primary);
+  color: var(--accent);
+}
+.tema5 {
+  background-color: var(--accent);
+  color: var(--primary);
+}
+
+.tema a {
+  text-decoration: none;
+  font-size: 60px;
+  padding-block: 6vw;
+  padding-inline: 15vw;
+}
+
+@media (min-width: 769px) {
+  .tema a {
+    text-decoration: none;
+    font-size: 60px;
+    padding-block: 6vw;
+    padding-inline: 15vw;
+  }
+  .beskrivelse {
+    padding-inline: 20rem;
+  }
+  .tema3,
+  .tema5 {
+    margin-left: 48vw;
+  }
+}
+.scrollToTop {
+  position: fixed; /* synlig */
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: var(--primary);
+  color: #fbf3f0;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.scrollToTop:hover {
+  background-color: #8698e2;
+}
+html {
+  scroll-behavior: smooth; /* scroll-effekt */
+}
