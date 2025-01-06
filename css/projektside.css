@@ -5,7 +5,8 @@
 }
 img {
   object-fit: cover;
-  width: 60%;
+  max-width: 800px;
+  max-height: 500px;
   padding: 0;
   margin: 0;
 }
@@ -25,4 +26,135 @@ img {
 
 .tilbage-knap:hover {
   background-color: var(--primary);
+}
+
+/*************KARRUSEL*************************/
+/* Karrusel container */
+.carousel {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Hvert slide */
+.carousel-item {
+  display: none; /* Skjul alle slides som standard */
+  text-align: center;
+}
+
+.carousel-item.active {
+  display: block; /* Vis kun det aktive slide */
+}
+
+/* Billede */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tekst under billedet */
+.carousel-caption {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  color: #333; /* Mørk tekstfarve */
+  padding: 10px 0;
+  background-color: #f7f7f7; /* Lys baggrund for at adskille teksten */
+  border-top: 2px solid #ddd; /* Valgfri kant over teksten */
+}
+
+/* Navigationsknapper */
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+button.prev:hover,
+button.next:hover {
+  background-color: black;
+}
+.carousel a {
+  text-decoration: none;
+  color: var(--secondary);
+  font-size: 0.9rem;
+  font-family: "Inconsolata", monospace;
+  transition: color 0.3s ease;
+}
+.carousel a:hover {
+  color: var(--primary);
+}
+
+h5 {
+  font-size: 1.1rem;
+  font-family: "Inconsolata", monospace;
+  font-weight: 300;
+}
+
+/*************Intro*************************/
+.intro {
+  background-color: var(--primary);
+  padding: 2rem;
+  margin: 1rem;
+  margin-block: 10rem;
+}
+.reflektion {
+  background-color: var(--primary);
+  padding: 2rem;
+  margin: 1rem;
+  margin-block: 10rem;
+}
+.reflektion p {
+  color: #fbf3f0;
+}
+.intro h2,
+.reflektion h2 {
+  color: #fbf3f0;
+}
+.intro p {
+  color: #fbf3f0;
+}
+@media (min-width: 769px) {
+  .intro {
+    padding-inline: 5rem;
+    margin-right: 25vw;
+    margin-block: 10rem;
+  }
+  .reflektion {
+    padding-inline: 5rem;
+    margin-left: 25vw;
+    margin-block: 10rem;
+  }
+}
+.knap {
+  padding: 10px 15px;
+  background-color: var(--accent);
+  color: #fbf3f0;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.knap:hover {
+  background-color: #152070;
 }
