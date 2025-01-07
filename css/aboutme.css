@@ -1,12 +1,14 @@
+/*************************GLOBALE VARIABLER****************************/
 :root {
   --primary: #2232ac;
   --secondary: #666666;
   --accent: #8698e2;
 }
+/*SYNLIGØRE AKTIV SIDE*/
 .aktiv {
   color: var(--primary) !important;
 }
-
+/*************************BILLEDER****************************/
 img {
   object-fit: cover;
   width: 100%;
@@ -69,7 +71,7 @@ img {
   width: 38vw;
   min-width: 16rem;
 }
-
+/*************************MOBIL****************************/
 @media (max-width: 769px) {
   .grid_1-1-1 {
     padding-block: 4rem;
@@ -84,6 +86,7 @@ img {
     padding-top: 1rem;
   }
 }
+/*************************DESKTOP****************************/
 @media (min-width: 769px) {
   .kompetancer {
     padding-inline: 15rem;
@@ -109,6 +112,7 @@ img {
     padding-block: 5rem;
   }
 }
+/*************************TIL TOP KNAP****************************/
 .scrollToTop {
   position: fixed; /* synlig */
   bottom: 20px;

@@ -1,12 +1,15 @@
+/*************************GLOBALE VARIABLER****************************/
 :root {
   --primary: #2232ac;
   --secondary: #666666;
   --accent: #8698e2;
 }
+/*SYNLIGØRE AKTIV SIDE*/
 .aktiv {
   color: var(--primary) !important;
 }
 
+/*************************STYLING AF TEMABOKSE****************************/
 .tema ul {
   list-style: none;
 }
@@ -37,7 +40,7 @@
   padding-block: 6vw;
   padding-inline: 15vw;
 }
-
+/*************************DESKTOP****************************/
 @media (min-width: 769px) {
   .tema a {
     text-decoration: none;
@@ -53,6 +56,7 @@
     margin-left: 48vw;
   }
 }
+/*************************TIL TOP KNAP****************************/
 .scrollToTop {
   position: fixed; /* synlig */
   bottom: 20px;

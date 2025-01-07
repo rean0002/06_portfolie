@@ -1,8 +1,10 @@
+/**********************GLOBALE VARIABLER***************************/
 :root {
   --primary: #2232ac;
   --secondary: #666666;
   --accent: #8698e2;
 }
+/************************BILLEDER***************************/
 img {
   object-fit: cover;
   max-width: 800px;
@@ -10,6 +12,7 @@ img {
   padding: 0;
   margin: 0;
 }
+/********************TILBAGE-KNAP******************************/
 .tilbage-knap {
   display: inline-block;
   padding: 10px 20px;
@@ -28,7 +31,7 @@ img {
   background-color: var(--primary);
 }
 
-/*************KARRUSEL*************************/
+/*************KARRUSEL (ved hjælp af ai)*************************/
 /* Karrusel container */
 .carousel {
   position: relative;
@@ -39,12 +42,12 @@ img {
 
 /* Hvert slide */
 .carousel-item {
-  display: none; /* Skjul alle slides som standard */
+  display: none; /* Skjul ikke-aktiv slide */
   text-align: center;
 }
 
 .carousel-item.active {
-  display: block; /* Vis kun det aktive slide */
+  display: block; /* Vis aktiv slide */
 }
 
 /* Billede */
@@ -59,10 +62,10 @@ img {
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 1rem;
-  color: #333; /* Mørk tekstfarve */
+  color: #333;
   padding: 10px 0;
-  background-color: #f7f7f7; /* Lys baggrund for at adskille teksten */
-  border-top: 2px solid #ddd; /* Valgfri kant over teksten */
+  background-color: #f7f7f7;
+  border-top: 2px solid #ddd;
 }
 
 /* Navigationsknapper */
@@ -92,6 +95,7 @@ button.prev:hover,
 button.next:hover {
   background-color: black;
 }
+/*TEKST*/
 .carousel a {
   text-decoration: none;
   color: var(--secondary);
@@ -103,13 +107,7 @@ button.next:hover {
   color: var(--primary);
 }
 
-h5 {
-  font-size: 1.1rem;
-  font-family: "Inconsolata", monospace;
-  font-weight: 300;
-}
-
-/*************Intro*************************/
+/*************INTRO*************************/
 .intro {
   background-color: var(--primary);
   padding: 2rem;
@@ -132,6 +130,7 @@ h5 {
 .intro p {
   color: #fbf3f0;
 }
+/************************DESKTOP****************************/
 @media (min-width: 769px) {
   .intro {
     padding-inline: 5rem;
@@ -144,6 +143,7 @@ h5 {
     margin-block: 10rem;
   }
 }
+/*************************RESULTAT-KNAP****************************/
 .knap {
   padding: 10px 15px;
   background-color: var(--accent);
