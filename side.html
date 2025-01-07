@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="css/projekter.css">
+    <link rel="stylesheet" href="css/projektside.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/tema.css">
     <title>Document</title>
 </head>
 
@@ -42,10 +42,10 @@
 
     </header>
     <main>
-        <h4>PORTFOLIE</h4>
+        <h4>Første side på domæne</h4>
         <div class="front">
-            <h1> Tema 3 </h1>
-            <h3>Grundæggende UX/UI</h3>
+            <h1> Eget domæne</h1>
+            <h3>Min første side</h3>
             <div class="lottie-container">
                 <lottie-player src="mus.json" background="transparent" speed="1" loop autoplay
                     class="lottie_sprite"></lottie-player>
@@ -53,14 +53,36 @@
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest"></script>
         </div>
 
-        <div class="grid_1-1">
-            <a href="easteats.html">
-                <img src="img/img_tema3/forside_1.webp" alt="Forside"> </a>
-
-            <a href="easteats.html">
-                <h2>East Eats</h2>
-            </a>
+        <div class="intro">
+            <h2>Min første side</h2>
+            <div>
+                <p>Vi startede med en lille opgave, hvor vi skulle oprette vores første domæne. Derefter lærte vi at
+                    indsætte indhold i
+                    HTML, hvilket gav os en grundlæggende forståelse af, hvordan hjemmesider struktureres. Til sidst
+                    skulle vi uploade
+                    indholdet via FileZilla, hvilket gav os indsigt i, hvordan man håndterer filoverførsler til en
+                    server og gør hjemmesiden
+                    tilgængelig online.
+                    .</p>
+                <a class="knap" href="https://rebeccaandersen.dk/kea/01_introuge/">Resultat</a>
+            </div>
         </div>
+        <h2>Min første side!</h2>
+        <div class="carousel">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="img/img_tema1/forsteside.webp" alt="Billede 1">
+                <div class="carousel-caption">
+
+
+                </div>
+            </div>
+            <!-- Navigationsknapper -->
+            <button class="prev" onclick="prevSlide()">❮</button>
+            <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+
+
         <button onclick="history.back()" class="tilbage-knap">← Tilbage</button>
     </main>
     <footer>
@@ -78,8 +100,7 @@
             <p>&copy;2025 Rebecca Andersen - Multimediedesign. København, Danmark</p>
         </div>
 
-    </footer>
-    <!-- Til toppen-knap -->
+    </footer> <!-- Til toppen-knap -->
     <a href="#top" class="scrollToTop">Til toppen</a>
 </body>
 

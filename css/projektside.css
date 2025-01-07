@@ -22,8 +22,9 @@ img {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+  font-weight: bold;
   transition: background-color 0.3s ease;
 }
 
@@ -56,7 +57,11 @@ img {
   height: auto;
   display: block;
 }
-
+.carusel-item iframe {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /* Tekst under billedet */
 .carousel-caption {
   text-align: center;
@@ -157,4 +162,18 @@ button.next:hover {
 }
 .knap:hover {
   background-color: #152070;
+}
+
+.video_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+/*************************VIDEOER****************************/
+.video_container iframe {
+  width: 100%;
+  max-width: 1000px;
+  height: 650px;
 }

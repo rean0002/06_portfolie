@@ -20,8 +20,8 @@ img {
   padding-top: 1rem;
 }
 .highlight {
-  color: #2232ac; /* Ændrer farven på ordene */
-  font-weight: bold; /* Valgfri: gør ordene fed */
+  color: #2232ac;
+  font-weight: bold;
 }
 
 .grid_1-1 p {
@@ -111,25 +111,4 @@ img {
     padding: 2rem;
     padding-block: 5rem;
   }
-}
-/*************************TIL TOP KNAP****************************/
-.scrollToTop {
-  position: fixed; /* synlig */
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 15px;
-  background-color: var(--primary);
-  color: #fbf3f0;
-  text-decoration: none;
-  border-radius: 5px;
-  font-family: "Inconsolata", monospace;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.scrollToTop:hover {
-  background-color: #8698e2;
-}
-html {
-  scroll-behavior: smooth; /* scroll-effekt */
 }

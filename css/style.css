@@ -366,3 +366,25 @@ footer a:hover {
 .footer_container {
   font-family: "Inconsolata", monospace;
 }
+
+/*************************TIL TOP KNAP****************************/
+.scrollToTop {
+  position: fixed; /* synlig */
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background-color: var(--primary);
+  color: #fbf3f0;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.scrollToTop:hover {
+  background-color: #8698e2;
+}
+html {
+  scroll-behavior: smooth; /* scroll-effekt */
+}

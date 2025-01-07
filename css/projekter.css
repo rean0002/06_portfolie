@@ -16,7 +16,10 @@
 .tema li {
   padding-block: 10vw;
 }
-
+.tema1 {
+  background-color: var(--accent);
+  color: var(--primary);
+}
 .tema2 {
   background-color: var(--primary);
   color: var(--accent);
@@ -32,6 +35,10 @@
 .tema5 {
   background-color: var(--accent);
   color: var(--primary);
+}
+.tema6 {
+  background-color: var(--primary);
+  color: var(--accent);
 }
 
 .tema a {
@@ -51,29 +58,9 @@
   .beskrivelse {
     padding-inline: 20rem;
   }
+  .tema1,
   .tema3,
   .tema5 {
     margin-left: 48vw;
   }
-}
-/*************************TIL TOP KNAP****************************/
-.scrollToTop {
-  position: fixed; /* synlig */
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 15px;
-  background-color: var(--primary);
-  color: #fbf3f0;
-  text-decoration: none;
-  border-radius: 5px;
-  font-family: "Inconsolata", monospace;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.scrollToTop:hover {
-  background-color: #8698e2;
-}
-html {
-  scroll-behavior: smooth; /* scroll-effekt */
 }
